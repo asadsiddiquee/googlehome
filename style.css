@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.google {
+  height: 100vh;
+  width: 100vw;
+}
+navbar {
+  height: 30px;
+}
+
+navbar ul li {
+  display: inline;
+  padding: 10px;
+  /* background-color: red; */
+}
+
+navbar ul {
+  /* background-color: blue; */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+a:hover {
+  text-decoration: underline;
+}
+navbar i {
+  padding: 10px;
+}
+navbar i:hover {
+  border-radius: 15px;
+  background-color: rgb(223, 221, 213);
+}
+
+navbar img {
+  border: 5px solid rgb(228, 223, 223);
+  border-radius: 25px;
+  height: 70%;
+}
+
+main {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 88vh;
+  width: 400px;
+  margin: auto;
+}
+
+.searchb {
+  min-width: 30vw;
+  height: 4.5vh;
+  border-radius: 30px;
+  border: 0.5px solid rgb(216, 211, 211);
+  margin: 30px;
+  padding: 0 40px;
+}
+
+.searchb input {
+  margin: 50px;
+}
+
+.searchbtn {
+  display: inherit;
+  position: relative;
+}
+
+.searchbtn i {
+  position: absolute;
+  left: 40px;
+  top: 42px;
+  color: rgb(148, 155, 161);
+}
+
+.btn button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+}
+
+.btn button:hover {
+  background-color: rgb(250, 249, 247);
+  cursor: pointer;
+}
+
+footer {
+  /* position: absolute;
+  bottom: 0; */
+  display: flex;
+  justify-items: end;
+  justify-content: center;
+}
